@@ -9,7 +9,7 @@ import java.net.URI;
 @Service
 public class GeminiService {
 
-    @Value("${gemini.api.key}")
+    
     private String apiKey;
 
     public String callGemini(String prompt) throws Exception {
